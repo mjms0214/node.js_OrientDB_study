@@ -1,0 +1,247 @@
+
+2022-10-03 15:01:46:283 INFO  Windows OS is detected, 262144 limit of open files will be set for the disk cache. [ONative]
+2022-10-03 15:01:46:487 INFO  Loading configuration from: C:/Users/mjms0/Desktop/SOLUX/27기/기초스터디/orientdb-community-3.1.20/config/orientdb-server-config.xml... [OServerConfigurationLoaderXml]
+2022-10-03 15:01:47:097 INFO  OrientDB Server v3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) is starting up... [OServer]
+2022-10-03 15:01:50:293 INFO  8501346304 B/8107 MB/7 GB of physical memory were detected on machine [ONative]
+2022-10-03 15:01:50:295 INFO  Detected memory limit for current process is 8501346304 B/8107 MB/7 GB [ONative]
+2022-10-03 15:01:50:297 INFO  JVM can use maximum 2048MB of heap memory [OMemoryAndLocalPaginatedEnginesInitializer]
+2022-10-03 15:01:50:299 INFO  Because OrientDB is running outside a container 2g of memory will be left unallocated according to the setting 'memory.leftToOS' not taking into account heap memory [OMemoryAndLocalPaginatedEnginesInitializer]
+2022-10-03 15:01:50:302 INFO  OrientDB auto-config DISKCACHE=4,011MB (heap=2,048MB os=8,107MB) [orientechnologies]
+2022-10-03 15:01:50:303 INFO  System is started under an effective user : `mjms0` [OEngineLocalPaginated]
+2022-10-03 15:01:51:828 INFO  WAL maximum segment size is set to 6,144 MB [OrientDBDistributed]
+2022-10-03 15:01:51:840 INFO  Databases directory: C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases [OServer]
+2022-10-03 15:01:52:179 INFO  Page size for WAL located in C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases\OSystem is set to 4096 bytes. [CASDiskWriteAheadLog]
+2022-10-03 15:01:52:776 INFO  DWL:OSystem: block size = 4096 bytes, maximum segment size = 2204 MB [DoubleWriteLogGL]
+2022-10-03 15:01:52:809 WARNI Storage 'OSystem' was not closed properly. Will try to recover from write ahead log [OLocalPaginatedStorage]
+2022-10-03 15:01:52:811 INFO  Looking for last checkpoint... [OLocalPaginatedStorage]
+2022-10-03 15:01:52:816 INFO  Data restore procedure is started. [OLocalPaginatedStorage]
+2022-10-03 15:01:52:872 WARNI Record com.orientechnologies.orient.core.storage.impl.local.paginated.wal.common.EmptyWALRecord{ lsn =OLogSequenceNumber{segment=5, position=22}} will be skipped during data restore [OLocalPaginatedStorage]
+2022-10-03 15:01:52:890 INFO  1 operations were processed, current LSN is OLogSequenceNumber{segment=5, position=22} last LSN is OLogSequenceNumber{segment=6, position=22} [OLocalPaginatedStorage]
+2022-10-03 15:01:52:898 WARNI Record com.orientechnologies.orient.core.storage.impl.local.paginated.wal.common.EmptyWALRecord{ lsn =OLogSequenceNumber{segment=6, position=22}} will be skipped during data restore [OLocalPaginatedStorage]
+2022-10-03 15:01:52:949 INFO  Storage data recover was completed [OLocalPaginatedStorage]
+2022-10-03 15:01:53:518 INFO  Storage 'plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/OSystem' is opened under OrientDB distribution : 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+2022-10-03 15:01:54:169 INFO  Listening binary connections on 0.0.0.0:2424 (protocol v.38, socket=default) [OServerNetworkListener]
+2022-10-03 15:01:54:182 INFO  Listening http connections on 0.0.0.0:2480 (protocol v.10, socket=default) [OServerNetworkListener]
+2022-10-03 15:01:54:199 INFO  Installing dynamic plugin 'orientdb-etl-3.1.20.jar'... [OServerPluginManager]
+2022-10-03 15:01:54:213 INFO  Installing dynamic plugin 'orientdb-studio-3.1.20.zip'... [OServerPluginManager]
+2022-10-03 15:01:54:222 INFO  ODefaultPasswordAuthenticator is active [ODefaultPasswordAuthenticator]
+2022-10-03 15:01:54:224 INFO  OServerConfigAuthenticator is active [OServerConfigAuthenticator]
+2022-10-03 15:01:54:228 INFO  OSystemUserAuthenticator is active [OSystemUserAuthenticator]
+2022-10-03 15:01:54:229 INFO  [OVariableParser.resolveVariables] Property not found: distributed [orientechnologies]
+2022-10-03 15:01:54:245 WARNI Authenticated clients can execute any kind of code into the server by using the following allowed languages: [sql] [OServerSideScriptInterpreter]
+2022-10-03 15:01:57:398 INFO  OrientDB Studio available at http://172.22.48.1:2480/studio/index.html [OServer]
+2022-10-03 15:01:57:399 INFO  OrientDB Server is active v3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN). [OServer]
+2022-10-03 15:02:13:196 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:02:13:247 INFO  Page size for WAL located in C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases\o2 is set to 4096 bytes. [CASDiskWriteAheadLog]
+2022-10-03 15:02:14:273 INFO  DWL:o2: block size = 4096 bytes, maximum segment size = 2204 MB [DoubleWriteLogGL]
+2022-10-03 15:02:14:319 WARNI Storage 'o2' was not closed properly. Will try to recover from write ahead log [OLocalPaginatedStorage]
+2022-10-03 15:02:14:335 INFO  Looking for last checkpoint... [OLocalPaginatedStorage]
+2022-10-03 15:02:14:360 INFO  Data restore procedure is started. [OLocalPaginatedStorage]
+2022-10-03 15:02:14:413 WARNI Record com.orientechnologies.orient.core.storage.impl.local.paginated.wal.common.EmptyWALRecord{ lsn =OLogSequenceNumber{segment=3, position=22}} will be skipped during data restore [OLocalPaginatedStorage]
+2022-10-03 15:02:14:414 INFO  1 operations were processed, current LSN is OLogSequenceNumber{segment=3, position=22} last LSN is OLogSequenceNumber{segment=4, position=22} [OLocalPaginatedStorage]
+2022-10-03 15:02:14:433 WARNI Record com.orientechnologies.orient.core.storage.impl.local.paginated.wal.common.EmptyWALRecord{ lsn =OLogSequenceNumber{segment=4, position=22}} will be skipped during data restore [OLocalPaginatedStorage]
+2022-10-03 15:02:14:486 INFO  Storage data recover was completed [OLocalPaginatedStorage]
+2022-10-03 15:02:14:650 INFO  Storage 'plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2' is opened under OrientDB distribution : 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+2022-10-03 15:02:15:048 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:02:54:768 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:27:57:133 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:28:32:097 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:31:49:418 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:32:14:776 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:34:10:343 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:34:28:452 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:36:25:788 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:39:10:209 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:40:38:177 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:41:00:927 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 15:43:13:955 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:14:34:073 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:16:07:715 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:16:35:191 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:20:31:938 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:27:57:264 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:28:30:043 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:41:16:662 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:41:16:708 SEVER Exception `171F1532` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.sql.OCommandSQLParsingException: Error on parsing command: Set of fields is missed. Example: (name, surname) or SET name = 'Bill'. Use INSERT INTO [class:]<class>|cluster:<cluster>|index:<index> [(<field>[,]*) VALUES (<expression>[,]*)[,]*]|[SET <field> = <expression>|<sub-command>[,]*]|CONTENT {<JSON>} [RETURN <expression>] [FROM select-query]
+Command: INSERT INTO topic
+-------------------^
+	DB name="o2"
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLAbstract.throwSyntaxErrorException(OCommandExecutorSQLAbstract.java:100)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:148)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:59)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:57)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:42:09:619 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:42:09:646 SEVER Exception `4F311003` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.sql.OCommandSQLParsingException: Error on parsing command: Set of fields is missed. Example: (name, surname) or SET name = 'Bill'. Use INSERT INTO [class:]<class>|cluster:<cluster>|index:<index> [(<field>[,]*) VALUES (<expression>[,]*)[,]*]|[SET <field> = <expression>|<sub-command>[,]*]|CONTENT {<JSON>} [RETURN <expression>] [FROM select-query]
+Command: INSERT INTO topic
+-------------------^
+	DB name="o2"
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLAbstract.throwSyntaxErrorException(OCommandExecutorSQLAbstract.java:100)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:148)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:59)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:57)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:44:13:425 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:44:13:548 SEVER Exception `7817408E` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.sql.OCommandSQLParsingException: Error parsing query:
+INSERT INTO topic WHERE name = "o2"
+                      ^
+Encountered " <WHERE> "WHERE "" at line 1, column 19.
+Was expecting one of:
+    <EOF> 
+    <SELECT> ...
+    <FROM> ...
+    <RETURN> ...
+    <UNSAFE> ...
+    "(" ...
+    ";" ...
+    <CLUSTER> ...
+    "(" ...
+    
+	DB name="o2"
+	Error Code="1"
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.throwParsingException(OStatementCache.java:155)
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.parse(OStatementCache.java:147)
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.get(OStatementCache.java:86)
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.get(OStatementCache.java:65)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLAbstract.preParse(OCommandExecutorSQLAbstract.java:247)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:82)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:59)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:57)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:46:27:421 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:46:27:440 SEVER Exception `35D68D59` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.command.OCommandExecutorNotFoundException: Cannot find a command executor for the command request: sql.INTO topic
+	DB name="o2"
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:52)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:47:17:940 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:47:17:975 SEVER Exception `7A13A1E2` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.command.OCommandExecutorNotFoundException: Cannot find a command executor for the command request: sql.INTO topic
+	DB name="o2"
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:52)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:50:27:993 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:50:28:011 SEVER Exception `18266AC8` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.sql.OCommandSQLParsingException: Error on parsing command: Set of fields is missed. Example: (name, surname) or SET name = 'Bill'. Use INSERT INTO [class:]<class>|cluster:<cluster>|index:<index> [(<field>[,]*) VALUES (<expression>[,]*)[,]*]|[SET <field> = <expression>|<sub-command>[,]*]|CONTENT {<JSON>} [RETURN <expression>] [FROM select-query]
+Command: INSERT INTO topic
+-------------------^
+	DB name="o2"
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLAbstract.throwSyntaxErrorException(OCommandExecutorSQLAbstract.java:100)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:148)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:59)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:57)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:51:01:944 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:51:01:967 SEVER Exception `7F8107D0` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.command.OCommandExecutorNotFoundException: Cannot find a command executor for the command request: sql.INTO topic
+	DB name="o2"
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:52)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:52:39:543 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:52:39:565 SEVER Exception `0596E3E9` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.sql.OCommandSQLParsingException: Error parsing query:
+INSERT INTO topic WHERE name = "express"
+                      ^
+Encountered " <WHERE> "WHERE "" at line 1, column 19.
+Was expecting one of:
+    <EOF> 
+    <SELECT> ...
+    <FROM> ...
+    <RETURN> ...
+    <UNSAFE> ...
+    "(" ...
+    ";" ...
+    <CLUSTER> ...
+    "(" ...
+    
+	DB name="o2"
+	Error Code="1"
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.throwParsingException(OStatementCache.java:155)
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.parse(OStatementCache.java:147)
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.get(OStatementCache.java:86)
+	at com.orientechnologies.orient.core.sql.parser.OStatementCache.get(OStatementCache.java:65)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLAbstract.preParse(OCommandExecutorSQLAbstract.java:247)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:82)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLInsert.parse(OCommandExecutorSQLInsert.java:59)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:57)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
+
+2022-10-03 16:55:58:310 WARNI IMPORTANT! Using default password is unsafe, please change password for user 'admin' on database 'o2' [OrientDBDistributed]
+2022-10-03 16:55:58:342 SEVER Exception `4416FAC2` in storage `plocal:C:\Users\mjms0\Desktop\SOLUX\27기\기초스터디\orientdb-community-3.1.20\databases/o2`: 3.1.20 - Veloce (build a9065d2198411f8b5eab3bb5240c4aad67b3dbc9, branch UNKNOWN) [OLocalPaginatedStorage]
+com.orientechnologies.orient.core.command.OCommandExecutorNotFoundException: Cannot find a command executor for the command request: sql.INTO Generic, topic
+	DB name="o2"
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:52)
+	at com.orientechnologies.orient.core.sql.OCommandExecutorSQLDelegate.parse(OCommandExecutorSQLDelegate.java:37)
+	at com.orientechnologies.orient.core.storage.impl.local.OAbstractPaginatedStorage.command(OAbstractPaginatedStorage.java:4315)
+	at com.orientechnologies.orient.core.command.OCommandRequestTextAbstract.execute(OCommandRequestTextAbstract.java:63)
+	at com.orientechnologies.orient.server.OConnectionBinaryExecutor.executeCommand(OConnectionBinaryExecutor.java:785)
+	at com.orientechnologies.orient.client.remote.message.OCommandRequest.execute(OCommandRequest.java:102)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.sessionRequest(ONetworkProtocolBinary.java:355)
+	at com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary.execute(ONetworkProtocolBinary.java:239)
+	at com.orientechnologies.common.thread.OSoftThread.run(OSoftThread.java:67)
